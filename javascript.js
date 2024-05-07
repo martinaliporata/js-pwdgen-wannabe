@@ -7,4 +7,4 @@ const userSurname = prompt('Write your surname');
 
 const userFavouriteColor = prompt('Write your favourite color');
 
-console.log(userName + userSurname + userFavouriteColor + 24)
+document.writeln(userName + userSurname + userFavouriteColor + 24);
