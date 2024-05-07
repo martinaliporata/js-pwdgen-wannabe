@@ -7,4 +7,8 @@ const userSurname = prompt('Write your surname');
 
 const userFavouriteColor = prompt('Write your favourite color');
 
-document.writeln(userName + userSurname + userFavouriteColor + 24);
+// non stilizzabile
+// document.writeln(userName + userSurname + userFavouriteColor + 24);
+
+// stilizzabile
+document.getElementById('password').innerHTML=userName + userSurname + userFavouriteColor + 24
